@@ -1,0 +1,645 @@
+date	route_id	route_name	vehicle_type	time_of_day	boarding_count	alighting_count	fare_collected	delay_minutes	weather_condition	day_type
+01-10-2023	R101	Central-Downtown	Bus	Evening	200	184	395.7	0.3	Clear	Weekend
+01-10-2023	R102	Suburb Express	Bus	Midday	85	74	177.5	0	Foggy	Weekend
+01-10-2023	R103	University Loop	Light Rail	Evening	195	174	441	0.3	Clear	Weekend
+01-10-2023	R104	Airport Shuttle	Bus	Evening	134	106	261.7	1.3	Stormy	Weekend
+01-10-2023	R105	Waterfront Line	Light Rail	Evening	153	140	416.3	0.2	Clear	Weekend
+01-10-2023	R106	Night Owl	Bus	Midday	184	163	367.6	1.2	Clear	Weekend
+01-10-2023	R107	East-West Connector	Bus	Evening	67	48	135.8	0.9	Clear	Weekend
+02-10-2023	R101	Central-Downtown	Bus	Morning Peak	116	91	224	0.4	Clear	Weekday
+02-10-2023	R102	Suburb Express	Light Rail	Off-Peak	94	81	225.4	0	Clear	Weekday
+02-10-2023	R103	University Loop	Bus	Morning Peak	97	77	182.3	3.1	Rainy	Weekday
+02-10-2023	R104	Airport Shuttle	Metro	Off-Peak	76	63	233.6	0	Clear	Weekday
+02-10-2023	R105	Waterfront Line	Bus	Morning Peak	185	173	367.9	0.6	Clear	Weekday
+02-10-2023	R106	Night Owl	Metro	Evening Peak	124	106	387.7	0.3	Clear	Weekday
+02-10-2023	R107	East-West Connector	Bus	Off-Peak	84	75	159.6	0.7	Clear	Weekday
+03-10-2023	R101	Central-Downtown	Bus	Morning Peak	197	186	403.8	0.1	Clear	Weekday
+03-10-2023	R102	Suburb Express	Bus	Morning Peak	128	112	276.8	0.5	Clear	Weekday
+03-10-2023	R103	University Loop	Bus	Morning Peak	102	87	204.4	0.1	Clear	Weekday
+03-10-2023	R104	Airport Shuttle	Bus	Morning Peak	207	189	406	0.1	Clear	Weekday
+03-10-2023	R105	Waterfront Line	Bus	Evening Peak	112	98	214.4	0.5	Clear	Weekday
+03-10-2023	R106	Night Owl	Metro	Morning Peak	78	67	235.4	0.4	Clear	Weekday
+03-10-2023	R107	East-West Connector	Metro	Morning Peak	186	171	543.2	2	Rainy	Weekday
+04-10-2023	R101	Central-Downtown	Metro	Morning Peak	181	156	493.1	0.6	Clear	Weekday
+04-10-2023	R102	Suburb Express	Bus	Evening Peak	115	99	215	1	Rainy	Weekday
+04-10-2023	R103	University Loop	Light Rail	Morning Peak	196	169	531.6	0.1	Cloudy	Weekday
+04-10-2023	R104	Airport Shuttle	Metro	Off-Peak	105	99	346.3	1.6	Stormy	Weekday
+04-10-2023	R105	Waterfront Line	Light Rail	Morning Peak	143	118	385.9	0.8	Cloudy	Weekday
+04-10-2023	R106	Night Owl	Metro	Morning Peak	167	150	511.7	0.1	Clear	Weekday
+04-10-2023	R107	East-West Connector	Metro	Morning Peak	224	199	738.5	0	Clear	Weekday
+05-10-2023	R101	Central-Downtown	Bus	Morning Peak	80	68	165	0	Clear	Weekday
+05-10-2023	R102	Suburb Express	Bus	Morning Peak	155	140	303.4	0.5	Cloudy	Weekday
+05-10-2023	R103	University Loop	Metro	Evening Peak	160	150	450.7	0.7	Rainy	Weekday
+05-10-2023	R104	Airport Shuttle	Bus	Evening Peak	135	112	292.4	0	Clear	Weekday
+05-10-2023	R105	Waterfront Line	Light Rail	Evening Peak	194	182	531.6	0.2	Clear	Weekday
+05-10-2023	R106	Night Owl	Bus	Morning Peak	209	190	454.5	1.7	Rainy	Weekday
+05-10-2023	R107	East-West Connector	Bus	Evening Peak	105	86	225.8	2.4	Rainy	Weekday
+06-10-2023	R101	Central-Downtown	Metro	Morning Peak	167	155	476.6	0.2	Rainy	Weekday
+06-10-2023	R102	Suburb Express	Bus	Evening Peak	98	81	203.9	1.1	Cloudy	Weekday
+06-10-2023	R103	University Loop	Bus	Morning Peak	221	193	439	0.2	Clear	Weekday
+06-10-2023	R104	Airport Shuttle	Metro	Morning Peak	203	188	585	0.2	Clear	Weekday
+06-10-2023	R105	Waterfront Line	Light Rail	Morning Peak	106	93	283.1	0.3	Clear	Weekday
+06-10-2023	R106	Night Owl	Metro	Morning Peak	102	75	307	0.8	Clear	Weekday
+06-10-2023	R107	East-West Connector	Bus	Evening Peak	193	179	361.6	0.3	Clear	Weekday
+07-10-2023	R101	Central-Downtown	Metro	Midday	106	95	301.5	0.1	Clear	Weekend
+07-10-2023	R102	Suburb Express	Light Rail	Evening	218	204	557.2	0.1	Clear	Weekend
+07-10-2023	R103	University Loop	Bus	Evening	200	177	367.3	0.2	Clear	Weekend
+07-10-2023	R104	Airport Shuttle	Light Rail	Midday	115	90	305.1	0.3	Clear	Weekend
+07-10-2023	R105	Waterfront Line	Metro	Midday	231	220	659.9	1.4	Clear	Weekend
+07-10-2023	R106	Night Owl	Metro	Evening	81	56	249.9	0.4	Clear	Weekend
+07-10-2023	R107	East-West Connector	Light Rail	Evening	192	182	476	1.4	Clear	Weekend
+08-10-2023	R101	Central-Downtown	Bus	Evening	187	165	352.7	0	Clear	Weekend
+08-10-2023	R102	Suburb Express	Metro	Midday	102	83	276.8	0.2	Cloudy	Weekend
+08-10-2023	R103	University Loop	Bus	Evening	151	138	282.5	0.8	Cloudy	Weekend
+08-10-2023	R104	Airport Shuttle	Light Rail	Midday	128	114	303.3	2.7	Rainy	Weekend
+08-10-2023	R105	Waterfront Line	Bus	Midday	201	176	393.1	0.1	Clear	Weekend
+08-10-2023	R106	Night Owl	Bus	Evening	107	89	206.3	6	Stormy	Weekend
+08-10-2023	R107	East-West Connector	Metro	Evening	230	209	666.4	2.8	Rainy	Weekend
+09-10-2023	R101	Central-Downtown	Metro	Evening Peak	205	189	676	0.7	Clear	Weekday
+09-10-2023	R102	Suburb Express	Metro	Evening Peak	85	64	273.7	0.3	Cloudy	Weekday
+09-10-2023	R103	University Loop	Bus	Morning Peak	113	99	226.6	0.4	Clear	Weekday
+09-10-2023	R104	Airport Shuttle	Light Rail	Off-Peak	52	39	132.4	0.6	Clear	Weekday
+09-10-2023	R105	Waterfront Line	Bus	Morning Peak	162	143	350.3	0.3	Clear	Weekday
+09-10-2023	R106	Night Owl	Bus	Evening Peak	193	176	356.5	2.7	Rainy	Weekday
+09-10-2023	R107	East-West Connector	Metro	Off-Peak	108	95	347.9	1.7	Clear	Weekday
+10-10-2023	R101	Central-Downtown	Bus	Off-Peak	104	95	189	1.3	Foggy	Weekday
+10-10-2023	R102	Suburb Express	Bus	Evening Peak	189	165	387.8	1.2	Rainy	Weekday
+10-10-2023	R103	University Loop	Metro	Evening Peak	112	92	321.3	4.4	Stormy	Weekday
+10-10-2023	R104	Airport Shuttle	Bus	Evening Peak	101	88	200.5	0.4	Clear	Weekday
+10-10-2023	R105	Waterfront Line	Bus	Off-Peak	109	96	209.7	0.6	Cloudy	Weekday
+10-10-2023	R106	Night Owl	Bus	Off-Peak	52	45	108.7	1.1	Rainy	Weekday
+10-10-2023	R107	East-West Connector	Light Rail	Off-Peak	34	24	90.3	0.3	Stormy	Weekday
+11-10-2023	R101	Central-Downtown	Metro	Morning Peak	202	176	647	0.3	Clear	Weekday
+11-10-2023	R102	Suburb Express	Bus	Morning Peak	97	71	195.3	4.9	Rainy	Weekday
+11-10-2023	R103	University Loop	Metro	Evening Peak	112	89	316.2	0.2	Clear	Weekday
+11-10-2023	R104	Airport Shuttle	Bus	Off-Peak	62	50	112.2	0.3	Clear	Weekday
+11-10-2023	R105	Waterfront Line	Light Rail	Morning Peak	231	217	530	0.4	Cloudy	Weekday
+11-10-2023	R106	Night Owl	Bus	Evening Peak	87	67	164	0	Clear	Weekday
+11-10-2023	R107	East-West Connector	Bus	Evening Peak	132	104	285.3	0.4	Clear	Weekday
+12-10-2023	R101	Central-Downtown	Metro	Morning Peak	176	162	559.3	0.9	Clear	Weekday
+12-10-2023	R102	Suburb Express	Metro	Morning Peak	229	214	686	0.5	Clear	Weekday
+12-10-2023	R103	University Loop	Bus	Morning Peak	119	99	220.8	0.4	Rainy	Weekday
+12-10-2023	R104	Airport Shuttle	Bus	Off-Peak	113	99	213.5	0.2	Cloudy	Weekday
+12-10-2023	R105	Waterfront Line	Bus	Morning Peak	198	184	392.9	0.2	Clear	Weekday
+12-10-2023	R106	Night Owl	Metro	Evening Peak	156	132	469.1	0.2	Clear	Weekday
+12-10-2023	R107	East-West Connector	Bus	Off-Peak	53	46	99.3	0.2	Clear	Weekday
+13-10-2023	R101	Central-Downtown	Bus	Evening Peak	106	83	197.1	0.6	Clear	Weekday
+13-10-2023	R102	Suburb Express	Light Rail	Evening Peak	131	119	320.8	0.7	Clear	Weekday
+13-10-2023	R103	University Loop	Bus	Evening Peak	130	109	246.1	0.3	Clear	Weekday
+13-10-2023	R104	Airport Shuttle	Bus	Evening Peak	140	127	282.1	0.7	Clear	Weekday
+13-10-2023	R105	Waterfront Line	Bus	Morning Peak	176	161	380.1	0.6	Rainy	Weekday
+13-10-2023	R106	Night Owl	Bus	Morning Peak	145	130	282.2	1	Clear	Weekday
+13-10-2023	R107	East-West Connector	Bus	Off-Peak	61	50	111.1	0.6	Clear	Weekday
+14-10-2023	R101	Central-Downtown	Light Rail	Evening	80	65	219	0.6	Clear	Weekend
+14-10-2023	R102	Suburb Express	Light Rail	Evening	99	71	264.3	1.7	Clear	Weekend
+14-10-2023	R103	University Loop	Metro	Midday	146	125	404.3	0.7	Rainy	Weekend
+14-10-2023	R104	Airport Shuttle	Metro	Midday	96	81	278.6	0	Clear	Weekend
+14-10-2023	R105	Waterfront Line	Light Rail	Midday	81	71	187.9	0.1	Clear	Weekend
+14-10-2023	R106	Night Owl	Bus	Evening	157	131	336	1.1	Rainy	Weekend
+14-10-2023	R107	East-West Connector	Light Rail	Evening	137	125	312.8	1.7	Rainy	Weekend
+15-10-2023	R101	Central-Downtown	Light Rail	Midday	115	103	268.2	0.5	Cloudy	Weekend
+15-10-2023	R102	Suburb Express	Metro	Midday	166	139	529.5	0.2	Clear	Weekend
+15-10-2023	R103	University Loop	Bus	Midday	118	108	223.4	0.2	Cloudy	Weekend
+15-10-2023	R104	Airport Shuttle	Metro	Evening	198	170	585.9	0.7	Clear	Weekend
+15-10-2023	R105	Waterfront Line	Metro	Midday	148	119	465.4	3	Clear	Weekend
+15-10-2023	R106	Night Owl	Metro	Evening	144	131	438	1	Cloudy	Weekend
+15-10-2023	R107	East-West Connector	Bus	Evening	166	153	329.1	1.4	Rainy	Weekend
+16-10-2023	R101	Central-Downtown	Metro	Evening Peak	205	183	642.1	2.4	Rainy	Weekday
+16-10-2023	R102	Suburb Express	Metro	Morning Peak	215	195	704.2	0.1	Clear	Weekday
+16-10-2023	R103	University Loop	Bus	Morning Peak	107	85	198.6	0.1	Clear	Weekday
+16-10-2023	R104	Airport Shuttle	Metro	Evening Peak	198	184	618.6	0.4	Clear	Weekday
+16-10-2023	R105	Waterfront Line	Metro	Evening Peak	129	112	413.4	0.1	Foggy	Weekday
+16-10-2023	R106	Night Owl	Bus	Morning Peak	152	142	326.5	0.4	Clear	Weekday
+16-10-2023	R107	East-West Connector	Bus	Morning Peak	85	56	179.8	0.2	Rainy	Weekday
+17-10-2023	R101	Central-Downtown	Bus	Off-Peak	68	57	131.8	1.2	Rainy	Weekday
+17-10-2023	R102	Suburb Express	Bus	Evening Peak	183	167	341.5	0.2	Clear	Weekday
+17-10-2023	R103	University Loop	Metro	Morning Peak	137	110	424.4	1.6	Clear	Weekday
+17-10-2023	R104	Airport Shuttle	Bus	Evening Peak	223	197	428.1	0.3	Clear	Weekday
+17-10-2023	R105	Waterfront Line	Bus	Evening Peak	213	187	386.5	0.4	Clear	Weekday
+17-10-2023	R106	Night Owl	Bus	Evening Peak	201	190	404.8	0.3	Clear	Weekday
+17-10-2023	R107	East-West Connector	Metro	Morning Peak	102	86	321.5	1.1	Clear	Weekday
+18-10-2023	R101	Central-Downtown	Metro	Off-Peak	101	90	312.6	0.1	Clear	Weekday
+18-10-2023	R102	Suburb Express	Bus	Evening Peak	212	198	396.7	0.5	Rainy	Weekday
+18-10-2023	R103	University Loop	Bus	Morning Peak	167	147	364.9	0.1	Foggy	Weekday
+18-10-2023	R104	Airport Shuttle	Bus	Morning Peak	81	65	169.6	0.1	Cloudy	Weekday
+18-10-2023	R105	Waterfront Line	Light Rail	Evening Peak	62	38	158.9	0.9	Clear	Weekday
+18-10-2023	R106	Night Owl	Bus	Morning Peak	102	88	200.3	0.3	Clear	Weekday
+18-10-2023	R107	East-West Connector	Bus	Off-Peak	69	55	139.8	1.3	Stormy	Weekday
+19-10-2023	R101	Central-Downtown	Bus	Evening Peak	94	77	195.5	0.1	Clear	Weekday
+19-10-2023	R102	Suburb Express	Metro	Evening Peak	138	116	429.8	3.5	Rainy	Weekday
+19-10-2023	R103	University Loop	Metro	Off-Peak	75	69	227.4	3.5	Rainy	Weekday
+19-10-2023	R104	Airport Shuttle	Bus	Morning Peak	142	127	297.2	0.5	Clear	Weekday
+19-10-2023	R105	Waterfront Line	Bus	Evening Peak	117	94	212.8	0.7	Clear	Weekday
+19-10-2023	R106	Night Owl	Bus	Evening Peak	138	118	264.3	0.6	Clear	Weekday
+19-10-2023	R107	East-West Connector	Bus	Evening Peak	214	200	426.6	0.4	Clear	Weekday
+20-10-2023	R101	Central-Downtown	Bus	Off-Peak	103	97	211.1	0.2	Clear	Weekday
+20-10-2023	R102	Suburb Express	Bus	Evening Peak	222	205	438.2	0.9	Clear	Weekday
+20-10-2023	R103	University Loop	Metro	Evening Peak	100	86	275.5	0.1	Foggy	Weekday
+20-10-2023	R104	Airport Shuttle	Light Rail	Evening Peak	163	138	437.9	3.3	Rainy	Weekday
+20-10-2023	R105	Waterfront Line	Metro	Evening Peak	205	178	613.7	2.2	Clear	Weekday
+20-10-2023	R106	Night Owl	Light Rail	Morning Peak	93	77	255.7	0.3	Clear	Weekday
+20-10-2023	R107	East-West Connector	Bus	Morning Peak	80	52	173.6	5.8	Stormy	Weekday
+21-10-2023	R101	Central-Downtown	Bus	Evening	170	143	341.5	2.1	Rainy	Weekend
+21-10-2023	R102	Suburb Express	Bus	Evening	181	169	376.2	0.6	Clear	Weekend
+21-10-2023	R103	University Loop	Bus	Midday	94	72	192.7	0.5	Cloudy	Weekend
+21-10-2023	R104	Airport Shuttle	Bus	Midday	175	153	352	0.8	Foggy	Weekend
+21-10-2023	R105	Waterfront Line	Light Rail	Midday	230	209	589.7	2.1	Cloudy	Weekend
+21-10-2023	R106	Night Owl	Metro	Midday	68	42	188.1	0.2	Clear	Weekend
+21-10-2023	R107	East-West Connector	Bus	Midday	155	145	335.4	0.1	Clear	Weekend
+22-10-2023	R101	Central-Downtown	Bus	Midday	212	198	389.2	1.1	Clear	Weekend
+22-10-2023	R102	Suburb Express	Light Rail	Midday	114	85	260.2	0.9	Clear	Weekend
+22-10-2023	R103	University Loop	Bus	Evening	197	179	369.3	0.2	Cloudy	Weekend
+22-10-2023	R104	Airport Shuttle	Bus	Evening	164	152	334.4	0.2	Clear	Weekend
+22-10-2023	R105	Waterfront Line	Metro	Midday	115	103	366.8	0.1	Clear	Weekend
+22-10-2023	R106	Night Owl	Metro	Evening	122	111	362.9	0.2	Clear	Weekend
+22-10-2023	R107	East-West Connector	Bus	Midday	150	126	309.3	0	Clear	Weekend
+23-10-2023	R101	Central-Downtown	Bus	Morning Peak	115	88	210.7	0.6	Clear	Weekday
+23-10-2023	R102	Suburb Express	Bus	Off-Peak	81	74	172.5	0.6	Clear	Weekday
+23-10-2023	R103	University Loop	Metro	Morning Peak	93	65	299.5	0.1	Clear	Weekday
+23-10-2023	R104	Airport Shuttle	Bus	Morning Peak	172	153	316.9	0.4	Rainy	Weekday
+23-10-2023	R105	Waterfront Line	Light Rail	Off-Peak	69	55	183.5	1.2	Clear	Weekday
+23-10-2023	R106	Night Owl	Bus	Evening Peak	120	109	229.8	7.9	Rainy	Weekday
+23-10-2023	R107	East-West Connector	Metro	Morning Peak	201	179	636.7	0.7	Clear	Weekday
+24-10-2023	R101	Central-Downtown	Metro	Off-Peak	106	97	292.7	0.6	Foggy	Weekday
+24-10-2023	R102	Suburb Express	Bus	Morning Peak	103	77	209.4	0.5	Clear	Weekday
+24-10-2023	R103	University Loop	Bus	Off-Peak	107	99	220.3	0.2	Clear	Weekday
+24-10-2023	R104	Airport Shuttle	Bus	Off-Peak	79	65	142.2	0.3	Clear	Weekday
+24-10-2023	R105	Waterfront Line	Light Rail	Morning Peak	150	130	354.1	0.6	Clear	Weekday
+24-10-2023	R106	Night Owl	Metro	Morning Peak	197	173	581.5	1	Rainy	Weekday
+24-10-2023	R107	East-West Connector	Bus	Off-Peak	35	29	66	0.5	Clear	Weekday
+25-10-2023	R101	Central-Downtown	Bus	Off-Peak	63	50	135.3	0.7	Cloudy	Weekday
+25-10-2023	R102	Suburb Express	Light Rail	Evening Peak	92	71	208.5	0.5	Foggy	Weekday
+25-10-2023	R103	University Loop	Metro	Evening Peak	135	106	399.4	0.3	Clear	Weekday
+25-10-2023	R104	Airport Shuttle	Bus	Evening Peak	85	68	163.6	0	Clear	Weekday
+25-10-2023	R105	Waterfront Line	Bus	Morning Peak	165	145	342.9	0.8	Cloudy	Weekday
+25-10-2023	R106	Night Owl	Bus	Evening Peak	156	135	342.4	0.3	Clear	Weekday
+25-10-2023	R107	East-West Connector	Metro	Evening Peak	169	142	489.4	0	Clear	Weekday
+26-10-2023	R101	Central-Downtown	Bus	Morning Peak	131	115	242.8	0.6	Clear	Weekday
+26-10-2023	R102	Suburb Express	Light Rail	Morning Peak	194	177	498.2	0.1	Rainy	Weekday
+26-10-2023	R103	University Loop	Light Rail	Morning Peak	162	135	440.3	0.5	Foggy	Weekday
+26-10-2023	R104	Airport Shuttle	Metro	Evening Peak	82	53	248.6	0.8	Clear	Weekday
+26-10-2023	R105	Waterfront Line	Bus	Morning Peak	219	196	401.4	0.1	Clear	Weekday
+26-10-2023	R106	Night Owl	Bus	Off-Peak	61	53	128	0.3	Cloudy	Weekday
+26-10-2023	R107	East-West Connector	Bus	Morning Peak	215	187	406.6	7.4	Stormy	Weekday
+27-10-2023	R101	Central-Downtown	Metro	Morning Peak	156	132	445.3	1	Clear	Weekday
+27-10-2023	R102	Suburb Express	Metro	Evening Peak	134	121	420.9	0.4	Cloudy	Weekday
+27-10-2023	R103	University Loop	Metro	Evening Peak	163	150	525.5	0.3	Foggy	Weekday
+27-10-2023	R104	Airport Shuttle	Bus	Evening Peak	84	62	166.9	0.1	Cloudy	Weekday
+27-10-2023	R105	Waterfront Line	Metro	Evening Peak	185	162	607.3	1	Clear	Weekday
+27-10-2023	R106	Night Owl	Bus	Morning Peak	224	201	449.3	0.4	Clear	Weekday
+27-10-2023	R107	East-West Connector	Bus	Morning Peak	115	103	237.2	0.7	Clear	Weekday
+28-10-2023	R101	Central-Downtown	Bus	Evening	182	162	391.9	0.2	Clear	Weekend
+28-10-2023	R102	Suburb Express	Bus	Evening	64	35	130.2	0.1	Foggy	Weekend
+28-10-2023	R103	University Loop	Bus	Midday	178	164	358.4	0.6	Cloudy	Weekend
+28-10-2023	R104	Airport Shuttle	Bus	Evening	113	84	215.6	0.4	Clear	Weekend
+28-10-2023	R105	Waterfront Line	Light Rail	Midday	133	119	361.4	0.4	Clear	Weekend
+28-10-2023	R106	Night Owl	Bus	Midday	213	193	384.9	1.8	Clear	Weekend
+28-10-2023	R107	East-West Connector	Metro	Midday	193	172	582.7	0.1	Clear	Weekend
+29-10-2023	R101	Central-Downtown	Bus	Evening	123	113	257.4	0.1	Clear	Weekend
+29-10-2023	R102	Suburb Express	Light Rail	Midday	213	193	552	0.5	Clear	Weekend
+29-10-2023	R103	University Loop	Light Rail	Evening	153	143	390.2	0.9	Foggy	Weekend
+29-10-2023	R104	Airport Shuttle	Metro	Evening	209	198	689.6	1.9	Clear	Weekend
+29-10-2023	R105	Waterfront Line	Bus	Evening	160	140	344.2	0.2	Clear	Weekend
+29-10-2023	R106	Night Owl	Metro	Evening	124	96	399.4	0.2	Clear	Weekend
+29-10-2023	R107	East-West Connector	Metro	Midday	199	183	604.6	0.4	Clear	Weekend
+30-10-2023	R101	Central-Downtown	Metro	Evening Peak	171	156	469.2	2.2	Rainy	Weekday
+30-10-2023	R102	Suburb Express	Metro	Evening Peak	84	67	253	0	Clear	Weekday
+30-10-2023	R103	University Loop	Bus	Morning Peak	190	166	382.6	2.9	Rainy	Weekday
+30-10-2023	R104	Airport Shuttle	Light Rail	Evening Peak	188	168	423.7	4.6	Rainy	Weekday
+30-10-2023	R105	Waterfront Line	Bus	Off-Peak	47	38	93.6	0.1	Clear	Weekday
+30-10-2023	R106	Night Owl	Metro	Evening Peak	140	116	422.7	0	Clear	Weekday
+30-10-2023	R107	East-West Connector	Metro	Morning Peak	91	71	252.4	0.8	Cloudy	Weekday
+31-10-2023	R101	Central-Downtown	Bus	Morning Peak	183	170	360.5	0.8	Clear	Weekday
+31-10-2023	R102	Suburb Express	Bus	Evening Peak	164	146	347.3	0.4	Rainy	Weekday
+31-10-2023	R103	University Loop	Bus	Off-Peak	68	63	128.8	0.2	Cloudy	Weekday
+31-10-2023	R104	Airport Shuttle	Light Rail	Evening Peak	112	99	260.4	0.1	Clear	Weekday
+31-10-2023	R105	Waterfront Line	Bus	Off-Peak	78	68	141.1	1.9	Rainy	Weekday
+31-10-2023	R106	Night Owl	Metro	Morning Peak	196	185	561.5	0.6	Clear	Weekday
+31-10-2023	R107	East-West Connector	Bus	Evening Peak	188	168	412.9	0.1	Clear	Weekday
+01-11-2023	R101	Central-Downtown	Metro	Evening Peak	180	157	514.6	1.8	Rainy	Weekday
+01-11-2023	R102	Suburb Express	Bus	Morning Peak	238	222	435	0	Clear	Weekday
+01-11-2023	R103	University Loop	Light Rail	Morning Peak	107	92	272.5	0.5	Rainy	Weekday
+01-11-2023	R104	Airport Shuttle	Bus	Morning Peak	84	63	173.4	0.7	Clear	Weekday
+01-11-2023	R105	Waterfront Line	Bus	Morning Peak	181	167	338.5	0.4	Rainy	Weekday
+01-11-2023	R106	Night Owl	Metro	Morning Peak	183	162	532.3	3.2	Rainy	Weekday
+01-11-2023	R107	East-West Connector	Light Rail	Morning Peak	87	70	229.2	0.6	Clear	Weekday
+02-11-2023	R101	Central-Downtown	Bus	Morning Peak	154	129	308.4	0	Clear	Weekday
+02-11-2023	R102	Suburb Express	Bus	Morning Peak	230	219	500.2	0.2	Clear	Weekday
+02-11-2023	R103	University Loop	Bus	Evening Peak	211	196	457.4	2.4	Clear	Weekday
+02-11-2023	R104	Airport Shuttle	Light Rail	Morning Peak	197	182	523.8	1.1	Clear	Weekday
+02-11-2023	R105	Waterfront Line	Light Rail	Off-Peak	55	42	132.6	0.1	Clear	Weekday
+02-11-2023	R106	Night Owl	Bus	Off-Peak	40	27	79.7	0.5	Clear	Weekday
+02-11-2023	R107	East-West Connector	Bus	Off-Peak	83	76	162.6	0.2	Clear	Weekday
+03-11-2023	R101	Central-Downtown	Bus	Morning Peak	122	109	223.5	0.1	Cloudy	Weekday
+03-11-2023	R102	Suburb Express	Metro	Off-Peak	66	56	178.2	0.5	Clear	Weekday
+03-11-2023	R103	University Loop	Bus	Morning Peak	86	75	170.6	2.6	Clear	Weekday
+03-11-2023	R104	Airport Shuttle	Bus	Evening Peak	110	92	232.4	0.1	Clear	Weekday
+03-11-2023	R105	Waterfront Line	Metro	Evening Peak	104	87	331.6	0.7	Rainy	Weekday
+03-11-2023	R106	Night Owl	Metro	Evening Peak	194	165	570.9	0.9	Rainy	Weekday
+03-11-2023	R107	East-West Connector	Metro	Evening Peak	69	54	197.1	0.1	Cloudy	Weekday
+04-11-2023	R101	Central-Downtown	Metro	Midday	181	167	592.9	0.1	Clear	Weekend
+04-11-2023	R102	Suburb Express	Metro	Midday	187	174	601.9	0.5	Clear	Weekend
+04-11-2023	R103	University Loop	Light Rail	Evening	153	134	404.3	1.6	Cloudy	Weekend
+04-11-2023	R104	Airport Shuttle	Metro	Midday	61	36	174	0	Cloudy	Weekend
+04-11-2023	R105	Waterfront Line	Light Rail	Midday	133	116	314.3	0.3	Cloudy	Weekend
+04-11-2023	R106	Night Owl	Light Rail	Midday	146	132	332	0.7	Clear	Weekend
+04-11-2023	R107	East-West Connector	Metro	Evening	122	108	366.6	0.3	Clear	Weekend
+05-11-2023	R101	Central-Downtown	Light Rail	Evening	99	71	231.4	0.5	Clear	Weekend
+05-11-2023	R102	Suburb Express	Metro	Midday	180	155	590.5	0.7	Clear	Weekend
+05-11-2023	R103	University Loop	Metro	Midday	160	134	456.5	0	Clear	Weekend
+05-11-2023	R104	Airport Shuttle	Light Rail	Midday	98	85	234.8	1.8	Stormy	Weekend
+05-11-2023	R105	Waterfront Line	Metro	Evening	153	142	424.9	1.3	Clear	Weekend
+05-11-2023	R106	Night Owl	Bus	Midday	189	162	411.5	0.1	Clear	Weekend
+05-11-2023	R107	East-West Connector	Bus	Evening	134	118	286.6	0.1	Foggy	Weekend
+06-11-2023	R101	Central-Downtown	Metro	Evening Peak	119	102	361.1	0	Clear	Weekday
+06-11-2023	R102	Suburb Express	Bus	Evening Peak	129	107	240.7	0.6	Clear	Weekday
+06-11-2023	R103	University Loop	Light Rail	Morning Peak	127	106	332.3	0.4	Clear	Weekday
+06-11-2023	R104	Airport Shuttle	Metro	Morning Peak	118	102	359.5	0.3	Cloudy	Weekday
+06-11-2023	R105	Waterfront Line	Bus	Evening Peak	103	89	221.7	0.1	Clear	Weekday
+06-11-2023	R106	Night Owl	Light Rail	Evening Peak	98	75	250.7	0.2	Clear	Weekday
+06-11-2023	R107	East-West Connector	Metro	Evening Peak	185	159	500.7	2.8	Rainy	Weekday
+07-11-2023	R101	Central-Downtown	Metro	Evening Peak	216	202	599.4	0.5	Clear	Weekday
+07-11-2023	R102	Suburb Express	Metro	Morning Peak	146	131	430.3	0	Rainy	Weekday
+07-11-2023	R103	University Loop	Metro	Morning Peak	216	187	635.3	0.4	Cloudy	Weekday
+07-11-2023	R104	Airport Shuttle	Metro	Morning Peak	177	166	541.6	0	Rainy	Weekday
+07-11-2023	R105	Waterfront Line	Bus	Evening Peak	125	103	262.3	0.5	Stormy	Weekday
+07-11-2023	R106	Night Owl	Light Rail	Evening Peak	183	157	451.5	0.1	Clear	Weekday
+07-11-2023	R107	East-West Connector	Metro	Evening Peak	216	206	637.8	3.1	Rainy	Weekday
+08-11-2023	R101	Central-Downtown	Bus	Evening Peak	101	76	190	1.9	Clear	Weekday
+08-11-2023	R102	Suburb Express	Bus	Evening Peak	214	192	452.2	1	Clear	Weekday
+08-11-2023	R103	University Loop	Bus	Morning Peak	222	193	470.9	0.3	Clear	Weekday
+08-11-2023	R104	Airport Shuttle	Bus	Morning Peak	185	173	365.3	2.9	Rainy	Weekday
+08-11-2023	R105	Waterfront Line	Bus	Evening Peak	208	179	429.1	0.1	Stormy	Weekday
+08-11-2023	R106	Night Owl	Bus	Morning Peak	106	83	201.4	0.7	Clear	Weekday
+08-11-2023	R107	East-West Connector	Bus	Evening Peak	154	132	329.8	0.5	Clear	Weekday
+09-11-2023	R101	Central-Downtown	Metro	Morning Peak	190	174	522.9	0.7	Clear	Weekday
+09-11-2023	R102	Suburb Express	Metro	Morning Peak	160	141	511.5	0.5	Cloudy	Weekday
+09-11-2023	R103	University Loop	Bus	Off-Peak	100	89	187.9	0.3	Clear	Weekday
+09-11-2023	R104	Airport Shuttle	Light Rail	Evening Peak	220	210	511.6	0.1	Clear	Weekday
+09-11-2023	R105	Waterfront Line	Light Rail	Evening Peak	139	119	317.5	1.6	Rainy	Weekday
+09-11-2023	R106	Night Owl	Bus	Evening Peak	197	183	429.1	0.6	Cloudy	Weekday
+09-11-2023	R107	East-West Connector	Bus	Evening Peak	157	136	286.5	0.8	Clear	Weekday
+10-11-2023	R101	Central-Downtown	Bus	Morning Peak	232	216	498.5	0.7	Clear	Weekday
+10-11-2023	R102	Suburb Express	Metro	Morning Peak	112	94	340	0.4	Cloudy	Weekday
+10-11-2023	R103	University Loop	Metro	Morning Peak	71	50	214.6	0.1	Clear	Weekday
+10-11-2023	R104	Airport Shuttle	Metro	Off-Peak	89	82	263.9	0.1	Clear	Weekday
+10-11-2023	R105	Waterfront Line	Bus	Morning Peak	175	161	359.4	0.3	Cloudy	Weekday
+10-11-2023	R106	Night Owl	Light Rail	Evening Peak	161	146	426.1	1	Clear	Weekday
+10-11-2023	R107	East-West Connector	Light Rail	Morning Peak	175	165	446.1	0.2	Clear	Weekday
+11-11-2023	R101	Central-Downtown	Metro	Evening	95	80	311.7	0.1	Cloudy	Weekend
+11-11-2023	R102	Suburb Express	Metro	Midday	104	82	301	7.8	Stormy	Weekend
+11-11-2023	R103	University Loop	Metro	Midday	220	208	663.6	4.4	Rainy	Weekend
+11-11-2023	R104	Airport Shuttle	Bus	Evening	207	189	440.4	0.6	Clear	Weekend
+11-11-2023	R105	Waterfront Line	Bus	Midday	195	174	375.5	0.9	Clear	Weekend
+11-11-2023	R106	Night Owl	Light Rail	Evening	127	117	301	0.2	Clear	Weekend
+11-11-2023	R107	East-West Connector	Bus	Evening	194	169	394	3.3	Rainy	Weekend
+12-11-2023	R101	Central-Downtown	Light Rail	Midday	143	118	329.4	0	Clear	Weekend
+12-11-2023	R102	Suburb Express	Metro	Midday	98	81	268.9	0.2	Clear	Weekend
+12-11-2023	R103	University Loop	Light Rail	Midday	108	96	284.2	0.7	Clear	Weekend
+12-11-2023	R104	Airport Shuttle	Light Rail	Midday	110	88	296.9	4.1	Rainy	Weekend
+12-11-2023	R105	Waterfront Line	Bus	Midday	187	164	401.3	0.2	Clear	Weekend
+12-11-2023	R106	Night Owl	Light Rail	Midday	147	124	398.2	1	Clear	Weekend
+12-11-2023	R107	East-West Connector	Bus	Evening	160	142	341.7	1.9	Stormy	Weekend
+13-11-2023	R101	Central-Downtown	Metro	Evening Peak	142	113	393	1.6	Rainy	Weekday
+13-11-2023	R102	Suburb Express	Bus	Morning Peak	218	189	418.7	0.2	Clear	Weekday
+13-11-2023	R103	University Loop	Bus	Evening Peak	197	180	423.7	0.2	Clear	Weekday
+13-11-2023	R104	Airport Shuttle	Light Rail	Evening Peak	118	92	282.3	0.2	Clear	Weekday
+13-11-2023	R105	Waterfront Line	Metro	Evening Peak	104	79	332.7	0.1	Clear	Weekday
+13-11-2023	R106	Night Owl	Bus	Off-Peak	99	94	180.8	0.1	Stormy	Weekday
+13-11-2023	R107	East-West Connector	Metro	Morning Peak	177	154	560.1	4.5	Rainy	Weekday
+14-11-2023	R101	Central-Downtown	Bus	Evening Peak	197	168	416.8	2.3	Rainy	Weekday
+14-11-2023	R102	Suburb Express	Bus	Morning Peak	150	129	327	2.7	Rainy	Weekday
+14-11-2023	R103	University Loop	Metro	Evening Peak	91	64	265.5	0	Clear	Weekday
+14-11-2023	R104	Airport Shuttle	Bus	Morning Peak	216	194	430.4	0.5	Clear	Weekday
+14-11-2023	R105	Waterfront Line	Bus	Morning Peak	121	95	218.2	0	Clear	Weekday
+14-11-2023	R106	Night Owl	Bus	Morning Peak	197	177	358.1	0.8	Clear	Weekday
+14-11-2023	R107	East-West Connector	Bus	Off-Peak	68	57	138	0.6	Clear	Weekday
+15-11-2023	R101	Central-Downtown	Bus	Evening Peak	194	184	379.5	4.3	Rainy	Weekday
+15-11-2023	R102	Suburb Express	Metro	Morning Peak	227	217	725.1	3.4	Stormy	Weekday
+15-11-2023	R103	University Loop	Bus	Evening Peak	162	138	295.5	2.3	Rainy	Weekday
+15-11-2023	R104	Airport Shuttle	Bus	Morning Peak	147	133	271.7	0.7	Clear	Weekday
+15-11-2023	R105	Waterfront Line	Bus	Morning Peak	128	112	251.5	2.1	Rainy	Weekday
+15-11-2023	R106	Night Owl	Light Rail	Evening Peak	103	75	278.8	4.1	Rainy	Weekday
+15-11-2023	R107	East-West Connector	Metro	Morning Peak	90	75	287.8	3.4	Stormy	Weekday
+16-11-2023	R101	Central-Downtown	Metro	Evening Peak	232	208	632.5	0.4	Clear	Weekday
+16-11-2023	R102	Suburb Express	Bus	Evening Peak	161	141	317.5	0.6	Rainy	Weekday
+16-11-2023	R103	University Loop	Bus	Evening Peak	221	210	431.8	0.4	Clear	Weekday
+16-11-2023	R104	Airport Shuttle	Metro	Morning Peak	185	172	543.1	0.4	Clear	Weekday
+16-11-2023	R105	Waterfront Line	Bus	Evening Peak	132	122	287.6	0.4	Clear	Weekday
+16-11-2023	R106	Night Owl	Bus	Morning Peak	128	102	265.1	0.9	Rainy	Weekday
+16-11-2023	R107	East-West Connector	Bus	Off-Peak	97	92	180.1	0	Clear	Weekday
+17-11-2023	R101	Central-Downtown	Metro	Off-Peak	46	36	149.7	0.3	Clear	Weekday
+17-11-2023	R102	Suburb Express	Bus	Morning Peak	159	145	339.3	0.2	Clear	Weekday
+17-11-2023	R103	University Loop	Bus	Evening Peak	102	76	187.2	0.3	Rainy	Weekday
+17-11-2023	R104	Airport Shuttle	Bus	Off-Peak	54	45	100.5	0.4	Clear	Weekday
+17-11-2023	R105	Waterfront Line	Metro	Off-Peak	82	68	262.1	0.4	Rainy	Weekday
+17-11-2023	R106	Night Owl	Metro	Evening Peak	143	123	434	0.4	Clear	Weekday
+17-11-2023	R107	East-West Connector	Bus	Evening Peak	115	87	243	0.7	Rainy	Weekday
+18-11-2023	R101	Central-Downtown	Bus	Evening	132	116	258.5	0.3	Clear	Weekend
+18-11-2023	R102	Suburb Express	Metro	Midday	212	201	664.3	1	Clear	Weekend
+18-11-2023	R103	University Loop	Bus	Evening	84	55	166.9	1.7	Clear	Weekend
+18-11-2023	R104	Airport Shuttle	Light Rail	Evening	193	178	491.1	0.2	Clear	Weekend
+18-11-2023	R105	Waterfront Line	Bus	Evening	114	94	247.1	0.6	Clear	Weekend
+18-11-2023	R106	Night Owl	Light Rail	Midday	206	182	522.6	0.4	Stormy	Weekend
+18-11-2023	R107	East-West Connector	Bus	Evening	133	121	263.3	0.5	Clear	Weekend
+19-11-2023	R101	Central-Downtown	Light Rail	Midday	130	110	349.2	0.5	Clear	Weekend
+19-11-2023	R102	Suburb Express	Metro	Evening	163	151	460.7	0	Stormy	Weekend
+19-11-2023	R103	University Loop	Light Rail	Evening	124	112	324.7	0.7	Cloudy	Weekend
+19-11-2023	R104	Airport Shuttle	Bus	Evening	76	66	162.5	0.2	Rainy	Weekend
+19-11-2023	R105	Waterfront Line	Bus	Midday	95	80	182.6	0.5	Clear	Weekend
+19-11-2023	R106	Night Owl	Metro	Evening	166	151	478	0.3	Clear	Weekend
+19-11-2023	R107	East-West Connector	Metro	Evening	179	168	559.6	0.5	Rainy	Weekend
+20-11-2023	R101	Central-Downtown	Light Rail	Evening Peak	194	178	482.7	0.5	Clear	Weekday
+20-11-2023	R102	Suburb Express	Light Rail	Evening Peak	182	156	475	0.3	Cloudy	Weekday
+20-11-2023	R103	University Loop	Light Rail	Evening Peak	129	102	305.9	3.5	Rainy	Weekday
+20-11-2023	R104	Airport Shuttle	Light Rail	Evening Peak	187	165	506.5	1	Rainy	Weekday
+20-11-2023	R105	Waterfront Line	Bus	Off-Peak	92	79	165.6	0	Clear	Weekday
+20-11-2023	R106	Night Owl	Bus	Evening Peak	165	147	319.5	0	Foggy	Weekday
+20-11-2023	R107	East-West Connector	Light Rail	Off-Peak	56	50	134.8	1.1	Cloudy	Weekday
+21-11-2023	R101	Central-Downtown	Bus	Off-Peak	96	89	176.2	1.4	Rainy	Weekday
+21-11-2023	R102	Suburb Express	Bus	Evening Peak	177	153	330.4	2.2	Rainy	Weekday
+21-11-2023	R103	University Loop	Light Rail	Evening Peak	95	71	258.6	0.3	Clear	Weekday
+21-11-2023	R104	Airport Shuttle	Metro	Off-Peak	50	40	163.7	0.3	Clear	Weekday
+21-11-2023	R105	Waterfront Line	Bus	Morning Peak	101	87	215	0.1	Cloudy	Weekday
+21-11-2023	R106	Night Owl	Metro	Evening Peak	191	181	606.9	0	Cloudy	Weekday
+21-11-2023	R107	East-West Connector	Bus	Off-Peak	82	75	158	1	Rainy	Weekday
+22-11-2023	R101	Central-Downtown	Metro	Morning Peak	142	130	440.2	0.8	Cloudy	Weekday
+22-11-2023	R102	Suburb Express	Metro	Morning Peak	162	148	526	0.6	Cloudy	Weekday
+22-11-2023	R103	University Loop	Light Rail	Morning Peak	110	95	276.7	0	Clear	Weekday
+22-11-2023	R104	Airport Shuttle	Bus	Off-Peak	94	89	180.9	0.7	Cloudy	Weekday
+22-11-2023	R105	Waterfront Line	Metro	Off-Peak	65	52	180.2	0	Clear	Weekday
+22-11-2023	R106	Night Owl	Bus	Evening Peak	180	151	370.2	0.4	Clear	Weekday
+22-11-2023	R107	East-West Connector	Metro	Evening Peak	168	148	537.2	0.7	Rainy	Weekday
+23-11-2023	R101	Central-Downtown	Bus	Morning Peak	220	202	478.5	1.3	Rainy	Weekday
+23-11-2023	R102	Suburb Express	Bus	Evening Peak	91	74	198.1	2.4	Cloudy	Weekday
+23-11-2023	R103	University Loop	Metro	Off-Peak	65	60	184.3	0.1	Clear	Weekday
+23-11-2023	R104	Airport Shuttle	Metro	Evening Peak	166	146	546	1.2	Clear	Weekday
+23-11-2023	R105	Waterfront Line	Bus	Evening Peak	236	212	511.4	0.3	Clear	Weekday
+23-11-2023	R106	Night Owl	Light Rail	Evening Peak	158	131	356.1	1.2	Rainy	Weekday
+23-11-2023	R107	East-West Connector	Bus	Off-Peak	57	43	118.1	0.2	Clear	Weekday
+24-11-2023	R101	Central-Downtown	Light Rail	Evening Peak	162	150	377.9	0.1	Clear	Weekday
+24-11-2023	R102	Suburb Express	Bus	Off-Peak	89	79	164.1	1.4	Rainy	Weekday
+24-11-2023	R103	University Loop	Bus	Off-Peak	102	93	201.4	0	Clear	Weekday
+24-11-2023	R104	Airport Shuttle	Metro	Off-Peak	44	37	138.1	0.6	Clear	Weekday
+24-11-2023	R105	Waterfront Line	Bus	Off-Peak	70	56	139.4	0.6	Rainy	Weekday
+24-11-2023	R106	Night Owl	Metro	Evening Peak	195	168	616.8	0	Clear	Weekday
+24-11-2023	R107	East-West Connector	Bus	Morning Peak	155	135	281.9	0.1	Cloudy	Weekday
+25-11-2023	R101	Central-Downtown	Metro	Evening	138	126	446.7	1.2	Clear	Weekend
+25-11-2023	R102	Suburb Express	Bus	Evening	126	110	245.5	0.7	Clear	Weekend
+25-11-2023	R103	University Loop	Light Rail	Evening	109	87	258.9	0.2	Clear	Weekend
+25-11-2023	R104	Airport Shuttle	Metro	Midday	199	177	653.6	0.9	Clear	Weekend
+25-11-2023	R105	Waterfront Line	Metro	Midday	204	193	634	0.3	Clear	Weekend
+25-11-2023	R106	Night Owl	Metro	Evening	134	113	422.8	0.2	Clear	Weekend
+25-11-2023	R107	East-West Connector	Light Rail	Evening	142	119	374.9	0.3	Clear	Weekend
+26-11-2023	R101	Central-Downtown	Bus	Evening	187	159	381	0.5	Clear	Weekend
+26-11-2023	R102	Suburb Express	Bus	Midday	132	120	242.6	0	Cloudy	Weekend
+26-11-2023	R103	University Loop	Metro	Evening	147	134	410.3	0.4	Cloudy	Weekend
+26-11-2023	R104	Airport Shuttle	Bus	Midday	226	208	406.8	0.4	Clear	Weekend
+26-11-2023	R105	Waterfront Line	Bus	Evening	110	95	198.4	1.1	Clear	Weekend
+26-11-2023	R106	Night Owl	Bus	Midday	169	145	332.3	0.5	Cloudy	Weekend
+26-11-2023	R107	East-West Connector	Light Rail	Evening	125	100	337.6	2.1	Cloudy	Weekend
+27-11-2023	R101	Central-Downtown	Metro	Morning Peak	107	81	313.3	0.7	Clear	Weekday
+27-11-2023	R102	Suburb Express	Bus	Morning Peak	92	72	188.7	0.2	Clear	Weekday
+27-11-2023	R103	University Loop	Light Rail	Evening Peak	136	121	359.1	0.4	Rainy	Weekday
+27-11-2023	R104	Airport Shuttle	Light Rail	Evening Peak	229	205	597	1.3	Clear	Weekday
+27-11-2023	R105	Waterfront Line	Metro	Evening Peak	188	177	598.6	0.2	Clear	Weekday
+27-11-2023	R106	Night Owl	Bus	Off-Peak	48	43	100.4	1.5	Clear	Weekday
+27-11-2023	R107	East-West Connector	Bus	Morning Peak	123	110	240.3	0.9	Clear	Weekday
+28-11-2023	R101	Central-Downtown	Bus	Evening Peak	119	106	240.8	0.6	Clear	Weekday
+28-11-2023	R102	Suburb Express	Metro	Evening Peak	192	167	617.8	0.8	Clear	Weekday
+28-11-2023	R103	University Loop	Metro	Morning Peak	153	124	475.3	0.8	Rainy	Weekday
+28-11-2023	R104	Airport Shuttle	Light Rail	Evening Peak	85	73	227.4	2	Stormy	Weekday
+28-11-2023	R105	Waterfront Line	Bus	Morning Peak	92	78	178.6	0.8	Rainy	Weekday
+28-11-2023	R106	Night Owl	Metro	Evening Peak	208	181	615.6	0.8	Rainy	Weekday
+28-11-2023	R107	East-West Connector	Bus	Morning Peak	226	204	477.8	0.2	Rainy	Weekday
+29-11-2023	R101	Central-Downtown	Metro	Evening Peak	126	99	411.4	0	Foggy	Weekday
+29-11-2023	R102	Suburb Express	Bus	Off-Peak	100	86	184.5	0.7	Clear	Weekday
+29-11-2023	R103	University Loop	Metro	Evening Peak	167	151	477.4	0.3	Clear	Weekday
+29-11-2023	R104	Airport Shuttle	Bus	Morning Peak	155	135	315.9	1.3	Clear	Weekday
+29-11-2023	R105	Waterfront Line	Bus	Evening Peak	141	113	289	0.6	Rainy	Weekday
+29-11-2023	R106	Night Owl	Bus	Off-Peak	65	52	135.4	0.8	Rainy	Weekday
+29-11-2023	R107	East-West Connector	Bus	Evening Peak	119	109	219.8	0.5	Clear	Weekday
+30-11-2023	R101	Central-Downtown	Bus	Off-Peak	53	47	103.3	0.5	Clear	Weekday
+30-11-2023	R102	Suburb Express	Bus	Off-Peak	41	34	89.5	0.9	Clear	Weekday
+30-11-2023	R103	University Loop	Bus	Evening Peak	191	165	381.9	0.8	Rainy	Weekday
+30-11-2023	R104	Airport Shuttle	Light Rail	Morning Peak	135	111	321.2	0.6	Clear	Weekday
+30-11-2023	R105	Waterfront Line	Bus	Evening Peak	134	116	254.2	0.2	Rainy	Weekday
+30-11-2023	R106	Night Owl	Bus	Off-Peak	95	90	179.1	0.1	Clear	Weekday
+30-11-2023	R107	East-West Connector	Bus	Evening Peak	224	204	456.5	0.2	Clear	Weekday
+01-12-2023	R101	Central-Downtown	Light Rail	Morning Peak	142	119	347.7	0.1	Clear	Weekday
+01-12-2023	R102	Suburb Express	Light Rail	Morning Peak	112	96	267.1	1.1	Clear	Weekday
+01-12-2023	R103	University Loop	Metro	Evening Peak	104	89	307.5	0.5	Clear	Weekday
+01-12-2023	R104	Airport Shuttle	Light Rail	Morning Peak	205	185	522.6	0.4	Clear	Weekday
+01-12-2023	R105	Waterfront Line	Bus	Evening Peak	221	197	422.6	0	Rainy	Weekday
+01-12-2023	R106	Night Owl	Bus	Off-Peak	62	57	116.2	4.3	Rainy	Weekday
+01-12-2023	R107	East-West Connector	Light Rail	Evening Peak	131	117	295.3	0.3	Foggy	Weekday
+02-12-2023	R101	Central-Downtown	Metro	Midday	203	181	585.6	1.5	Foggy	Weekend
+02-12-2023	R102	Suburb Express	Bus	Midday	212	187	455.9	0.2	Clear	Weekend
+02-12-2023	R103	University Loop	Metro	Evening	142	128	441.1	1	Cloudy	Weekend
+02-12-2023	R104	Airport Shuttle	Metro	Midday	162	148	477.4	1	Rainy	Weekend
+02-12-2023	R105	Waterfront Line	Bus	Midday	226	211	478.2	0.4	Clear	Weekend
+02-12-2023	R106	Night Owl	Bus	Midday	163	135	309.1	0.1	Clear	Weekend
+02-12-2023	R107	East-West Connector	Bus	Evening	124	101	231.5	0.2	Clear	Weekend
+03-12-2023	R101	Central-Downtown	Bus	Evening	113	93	228.6	0.3	Clear	Weekend
+03-12-2023	R102	Suburb Express	Metro	Evening	193	183	544.7	0.4	Clear	Weekend
+03-12-2023	R103	University Loop	Metro	Midday	202	186	562.7	0.5	Rainy	Weekend
+03-12-2023	R104	Airport Shuttle	Bus	Evening	120	104	236.1	0.8	Clear	Weekend
+03-12-2023	R105	Waterfront Line	Bus	Midday	158	133	285	1.5	Rainy	Weekend
+03-12-2023	R106	Night Owl	Light Rail	Evening	183	155	437.9	0.4	Clear	Weekend
+03-12-2023	R107	East-West Connector	Light Rail	Midday	90	70	205.9	0.8	Clear	Weekend
+04-12-2023	R101	Central-Downtown	Light Rail	Morning Peak	95	80	232.2	1.7	Clear	Weekday
+04-12-2023	R102	Suburb Express	Bus	Evening Peak	165	154	330.9	0.5	Stormy	Weekday
+04-12-2023	R103	University Loop	Light Rail	Morning Peak	210	198	509.3	0	Clear	Weekday
+04-12-2023	R104	Airport Shuttle	Bus	Evening Peak	160	149	330.3	0	Clear	Weekday
+04-12-2023	R105	Waterfront Line	Light Rail	Evening Peak	178	165	468.7	0.8	Clear	Weekday
+04-12-2023	R106	Night Owl	Metro	Off-Peak	106	101	287.1	0.6	Clear	Weekday
+04-12-2023	R107	East-West Connector	Bus	Evening Peak	98	72	186.5	1.1	Rainy	Weekday
+05-12-2023	R101	Central-Downtown	Metro	Off-Peak	100	86	294.9	1	Rainy	Weekday
+05-12-2023	R102	Suburb Express	Metro	Morning Peak	177	156	554.8	1.6	Rainy	Weekday
+05-12-2023	R103	University Loop	Metro	Morning Peak	121	95	346.4	0.6	Rainy	Weekday
+05-12-2023	R104	Airport Shuttle	Light Rail	Evening Peak	89	67	237	0.2	Clear	Weekday
+05-12-2023	R105	Waterfront Line	Metro	Off-Peak	96	88	285.8	3.1	Stormy	Weekday
+05-12-2023	R106	Night Owl	Metro	Evening Peak	151	134	410.5	0	Clear	Weekday
+05-12-2023	R107	East-West Connector	Light Rail	Morning Peak	113	86	298.5	0.1	Clear	Weekday
+06-12-2023	R101	Central-Downtown	Metro	Evening Peak	95	78	270.7	0	Clear	Weekday
+06-12-2023	R102	Suburb Express	Bus	Off-Peak	81	74	178.1	0	Clear	Weekday
+06-12-2023	R103	University Loop	Bus	Morning Peak	196	168	384.6	0	Clear	Weekday
+06-12-2023	R104	Airport Shuttle	Bus	Morning Peak	133	106	277	0.1	Clear	Weekday
+06-12-2023	R105	Waterfront Line	Metro	Morning Peak	79	65	254.3	0.4	Clear	Weekday
+06-12-2023	R106	Night Owl	Light Rail	Evening Peak	145	126	336.3	0.4	Clear	Weekday
+06-12-2023	R107	East-West Connector	Light Rail	Morning Peak	195	181	500.5	0.3	Clear	Weekday
+07-12-2023	R101	Central-Downtown	Bus	Off-Peak	90	80	183.4	0.3	Clear	Weekday
+07-12-2023	R102	Suburb Express	Metro	Evening Peak	143	129	390.8	7.3	Rainy	Weekday
+07-12-2023	R103	University Loop	Bus	Evening Peak	194	181	381.3	0	Clear	Weekday
+07-12-2023	R104	Airport Shuttle	Metro	Evening Peak	163	136	442	0.5	Cloudy	Weekday
+07-12-2023	R105	Waterfront Line	Metro	Off-Peak	54	47	166.5	4.3	Stormy	Weekday
+07-12-2023	R106	Night Owl	Metro	Off-Peak	98	88	298.9	0.2	Clear	Weekday
+07-12-2023	R107	East-West Connector	Bus	Morning Peak	163	137	333	1.1	Cloudy	Weekday
+08-12-2023	R101	Central-Downtown	Metro	Morning Peak	194	169	567.5	1.1	Cloudy	Weekday
+08-12-2023	R102	Suburb Express	Bus	Morning Peak	173	147	354.5	1.3	Stormy	Weekday
+08-12-2023	R103	University Loop	Light Rail	Morning Peak	136	115	361.6	1.4	Cloudy	Weekday
+08-12-2023	R104	Airport Shuttle	Bus	Morning Peak	164	143	306.2	0	Clear	Weekday
+08-12-2023	R105	Waterfront Line	Light Rail	Morning Peak	124	95	339.3	1.7	Cloudy	Weekday
+08-12-2023	R106	Night Owl	Bus	Morning Peak	125	108	236	0.9	Clear	Weekday
+08-12-2023	R107	East-West Connector	Bus	Morning Peak	115	102	216.7	0.1	Cloudy	Weekday
+09-12-2023	R101	Central-Downtown	Bus	Evening	103	83	208.6	0.1	Cloudy	Weekend
+09-12-2023	R102	Suburb Express	Metro	Evening	140	119	401	0	Clear	Weekend
+09-12-2023	R103	University Loop	Bus	Midday	213	202	422.5	1.7	Rainy	Weekend
+09-12-2023	R104	Airport Shuttle	Metro	Evening	129	105	351.8	0.4	Clear	Weekend
+09-12-2023	R105	Waterfront Line	Metro	Evening	195	174	606.9	0.2	Rainy	Weekend
+09-12-2023	R106	Night Owl	Metro	Midday	139	122	391.7	0.4	Stormy	Weekend
+09-12-2023	R107	East-West Connector	Metro	Evening	116	103	380.7	0.7	Foggy	Weekend
+10-12-2023	R101	Central-Downtown	Bus	Midday	193	181	364.3	0.9	Clear	Weekend
+10-12-2023	R102	Suburb Express	Bus	Evening	187	164	355.5	1.1	Foggy	Weekend
+10-12-2023	R103	University Loop	Bus	Evening	220	202	418.2	0.4	Clear	Weekend
+10-12-2023	R104	Airport Shuttle	Metro	Evening	189	162	516.4	0.1	Clear	Weekend
+10-12-2023	R105	Waterfront Line	Bus	Evening	115	98	249.4	0.2	Clear	Weekend
+10-12-2023	R106	Night Owl	Bus	Midday	188	172	338.9	0.6	Cloudy	Weekend
+10-12-2023	R107	East-West Connector	Metro	Evening	121	105	394.6	0.6	Clear	Weekend
+11-12-2023	R101	Central-Downtown	Bus	Evening Peak	147	121	294.6	4.8	Rainy	Weekday
+11-12-2023	R102	Suburb Express	Metro	Evening Peak	191	181	613.5	2.8	Foggy	Weekday
+11-12-2023	R103	University Loop	Metro	Evening Peak	107	83	318.8	1.2	Cloudy	Weekday
+11-12-2023	R104	Airport Shuttle	Bus	Off-Peak	41	29	77.1	0.4	Clear	Weekday
+11-12-2023	R105	Waterfront Line	Metro	Morning Peak	160	145	467.1	0.7	Clear	Weekday
+11-12-2023	R106	Night Owl	Bus	Morning Peak	190	162	368.2	1.6	Clear	Weekday
+11-12-2023	R107	East-West Connector	Metro	Off-Peak	73	63	226.8	0.9	Clear	Weekday
+12-12-2023	R101	Central-Downtown	Light Rail	Off-Peak	113	105	308.7	0.6	Clear	Weekday
+12-12-2023	R102	Suburb Express	Metro	Evening Peak	208	185	571.5	0.2	Clear	Weekday
+12-12-2023	R103	University Loop	Bus	Off-Peak	103	91	224.1	0.1	Clear	Weekday
+12-12-2023	R104	Airport Shuttle	Bus	Morning Peak	181	158	358.3	0.1	Foggy	Weekday
+12-12-2023	R105	Waterfront Line	Bus	Morning Peak	129	112	262	0.9	Foggy	Weekday
+12-12-2023	R106	Night Owl	Metro	Morning Peak	122	101	392.7	0.6	Clear	Weekday
+12-12-2023	R107	East-West Connector	Light Rail	Morning Peak	104	91	250.3	0.6	Rainy	Weekday
+13-12-2023	R101	Central-Downtown	Bus	Morning Peak	124	95	264.4	0.7	Clear	Weekday
+13-12-2023	R102	Suburb Express	Metro	Morning Peak	133	104	417.7	1.8	Rainy	Weekday
+13-12-2023	R103	University Loop	Bus	Morning Peak	174	161	353.7	1	Clear	Weekday
+13-12-2023	R104	Airport Shuttle	Metro	Evening Peak	187	168	541.6	0.9	Clear	Weekday
+13-12-2023	R105	Waterfront Line	Light Rail	Morning Peak	200	178	508.5	1.1	Clear	Weekday
+13-12-2023	R106	Night Owl	Metro	Evening Peak	189	169	570.7	0.1	Clear	Weekday
+13-12-2023	R107	East-West Connector	Metro	Morning Peak	207	189	562.8	0.1	Cloudy	Weekday
+14-12-2023	R101	Central-Downtown	Bus	Morning Peak	81	64	177.9	0.1	Clear	Weekday
+14-12-2023	R102	Suburb Express	Metro	Off-Peak	56	49	163	0.8	Clear	Weekday
+14-12-2023	R103	University Loop	Bus	Morning Peak	129	103	250.7	0.4	Foggy	Weekday
+14-12-2023	R104	Airport Shuttle	Bus	Morning Peak	114	92	226.1	1.3	Clear	Weekday
+14-12-2023	R105	Waterfront Line	Bus	Off-Peak	79	65	171.8	0.1	Clear	Weekday
+14-12-2023	R106	Night Owl	Metro	Evening Peak	82	59	263	0.1	Clear	Weekday
+14-12-2023	R107	East-West Connector	Metro	Evening Peak	144	132	419.4	0.3	Clear	Weekday
+15-12-2023	R101	Central-Downtown	Light Rail	Off-Peak	106	95	252	0.2	Clear	Weekday
+15-12-2023	R102	Suburb Express	Bus	Evening Peak	122	97	230.2	0.4	Clear	Weekday
+15-12-2023	R103	University Loop	Bus	Off-Peak	45	31	84	0.4	Cloudy	Weekday
+15-12-2023	R104	Airport Shuttle	Bus	Evening Peak	174	156	335	0	Cloudy	Weekday
+15-12-2023	R105	Waterfront Line	Bus	Morning Peak	187	175	343.4	0	Clear	Weekday
+15-12-2023	R106	Night Owl	Metro	Morning Peak	188	174	508.5	0.1	Foggy	Weekday
+15-12-2023	R107	East-West Connector	Bus	Evening Peak	101	82	215.9	0.4	Clear	Weekday
+16-12-2023	R101	Central-Downtown	Bus	Evening	186	167	335.3	6.7	Stormy	Weekend
+16-12-2023	R102	Suburb Express	Bus	Evening	99	84	195.6	0.2	Clear	Weekend
+16-12-2023	R103	University Loop	Metro	Midday	72	51	222.9	0.3	Rainy	Weekend
+16-12-2023	R104	Airport Shuttle	Light Rail	Midday	156	132	389.8	0.7	Foggy	Weekend
+16-12-2023	R105	Waterfront Line	Bus	Evening	117	94	244.5	0.8	Rainy	Weekend
+16-12-2023	R106	Night Owl	Light Rail	Midday	187	168	442.6	0.9	Clear	Weekend
+16-12-2023	R107	East-West Connector	Light Rail	Midday	187	166	424.1	0.1	Foggy	Weekend
+17-12-2023	R101	Central-Downtown	Bus	Midday	201	176	362.7	0.2	Cloudy	Weekend
+17-12-2023	R102	Suburb Express	Bus	Evening	104	93	189.8	0.4	Clear	Weekend
+17-12-2023	R103	University Loop	Metro	Midday	189	168	556.9	0.1	Clear	Weekend
+17-12-2023	R104	Airport Shuttle	Bus	Midday	78	53	146.4	0.5	Clear	Weekend
+17-12-2023	R105	Waterfront Line	Bus	Midday	95	79	172.9	0.3	Clear	Weekend
+17-12-2023	R106	Night Owl	Bus	Midday	168	146	340.8	0.7	Cloudy	Weekend
+17-12-2023	R107	East-West Connector	Bus	Midday	233	222	457.5	0.1	Rainy	Weekend
+18-12-2023	R101	Central-Downtown	Bus	Morning Peak	138	118	283.8	1.1	Clear	Weekday
+18-12-2023	R102	Suburb Express	Light Rail	Morning Peak	133	118	357.4	0.1	Cloudy	Weekday
+18-12-2023	R103	University Loop	Metro	Morning Peak	87	67	253.7	0.6	Rainy	Weekday
+18-12-2023	R104	Airport Shuttle	Bus	Off-Peak	39	32	72.8	0.7	Clear	Weekday
+18-12-2023	R105	Waterfront Line	Metro	Evening Peak	195	184	577.3	0.5	Clear	Weekday
+18-12-2023	R106	Night Owl	Metro	Evening Peak	135	119	440.2	3.5	Rainy	Weekday
+18-12-2023	R107	East-West Connector	Metro	Evening Peak	156	129	444.9	0.3	Clear	Weekday
+19-12-2023	R101	Central-Downtown	Bus	Evening Peak	205	189	389.7	0.1	Cloudy	Weekday
+19-12-2023	R102	Suburb Express	Bus	Off-Peak	82	75	158.2	1.8	Rainy	Weekday
+19-12-2023	R103	University Loop	Metro	Evening Peak	207	178	593.2	0.1	Cloudy	Weekday
+19-12-2023	R104	Airport Shuttle	Metro	Morning Peak	188	174	581	0.1	Clear	Weekday
+19-12-2023	R105	Waterfront Line	Metro	Morning Peak	157	146	462.7	0	Clear	Weekday
+19-12-2023	R106	Night Owl	Metro	Off-Peak	96	85	295.6	0.4	Clear	Weekday
+19-12-2023	R107	East-West Connector	Bus	Morning Peak	133	122	242.1	0.4	Cloudy	Weekday
+20-12-2023	R101	Central-Downtown	Metro	Evening Peak	123	100	394.1	0.8	Clear	Weekday
+20-12-2023	R102	Suburb Express	Light Rail	Morning Peak	233	211	558.4	0.6	Clear	Weekday
+20-12-2023	R103	University Loop	Light Rail	Evening Peak	168	155	429.6	0.1	Clear	Weekday
+20-12-2023	R104	Airport Shuttle	Metro	Morning Peak	199	182	552.6	0	Clear	Weekday
+20-12-2023	R105	Waterfront Line	Metro	Off-Peak	49	44	156.7	0.5	Foggy	Weekday
+20-12-2023	R106	Night Owl	Bus	Evening Peak	176	164	341.9	0	Clear	Weekday
+20-12-2023	R107	East-West Connector	Metro	Off-Peak	68	55	206.2	0.2	Cloudy	Weekday
+21-12-2023	R101	Central-Downtown	Metro	Off-Peak	49	38	134.7	1.9	Cloudy	Weekday
+21-12-2023	R102	Suburb Express	Bus	Morning Peak	124	95	252.1	0.2	Cloudy	Weekday
+21-12-2023	R103	University Loop	Bus	Evening Peak	135	120	275	0.9	Rainy	Weekday
+21-12-2023	R104	Airport Shuttle	Metro	Evening Peak	106	90	341.7	0.7	Clear	Weekday
+21-12-2023	R105	Waterfront Line	Metro	Morning Peak	199	170	596.1	0.1	Cloudy	Weekday
+21-12-2023	R106	Night Owl	Bus	Evening Peak	132	112	252.3	0.5	Cloudy	Weekday
+21-12-2023	R107	East-West Connector	Light Rail	Off-Peak	97	83	232.6	0.4	Foggy	Weekday
+22-12-2023	R101	Central-Downtown	Bus	Morning Peak	169	159	370.2	0.1	Clear	Weekday
+22-12-2023	R102	Suburb Express	Light Rail	Morning Peak	183	162	476	0.2	Clear	Weekday
+22-12-2023	R103	University Loop	Light Rail	Morning Peak	108	79	279.5	0.7	Clear	Weekday
+22-12-2023	R104	Airport Shuttle	Bus	Evening Peak	206	184	380.7	1.7	Clear	Weekday
+22-12-2023	R105	Waterfront Line	Bus	Morning Peak	143	120	260.9	0.1	Clear	Weekday
+22-12-2023	R106	Night Owl	Bus	Off-Peak	88	76	193.1	0.5	Clear	Weekday
+22-12-2023	R107	East-West Connector	Metro	Evening Peak	156	137	489.6	0.1	Clear	Weekday
+23-12-2023	R101	Central-Downtown	Bus	Midday	195	166	374.2	0.6	Clear	Weekend
+23-12-2023	R102	Suburb Express	Bus	Evening	66	50	134.5	0.4	Cloudy	Weekend
+23-12-2023	R103	University Loop	Bus	Evening	200	177	371.9	1.1	Clear	Weekend
+23-12-2023	R104	Airport Shuttle	Metro	Evening	123	109	338	0.7	Foggy	Weekend
+23-12-2023	R105	Waterfront Line	Metro	Evening	139	119	441.3	0.2	Foggy	Weekend
+23-12-2023	R106	Night Owl	Bus	Midday	85	63	166.4	3.2	Rainy	Weekend
+23-12-2023	R107	East-West Connector	Bus	Midday	159	149	295.7	0.5	Cloudy	Weekend
+24-12-2023	R101	Central-Downtown	Bus	Evening	148	128	274.2	0.5	Clear	Weekend
+24-12-2023	R102	Suburb Express	Bus	Midday	70	50	138.9	1.2	Cloudy	Weekend
+24-12-2023	R103	University Loop	Light Rail	Midday	83	56	197.7	0	Clear	Weekend
+24-12-2023	R104	Airport Shuttle	Bus	Evening	166	141	356.3	0.3	Clear	Weekend
+24-12-2023	R105	Waterfront Line	Bus	Midday	218	204	445.1	0.4	Cloudy	Weekend
+24-12-2023	R106	Night Owl	Bus	Evening	94	70	174.6	0.6	Rainy	Weekend
+24-12-2023	R107	East-West Connector	Metro	Midday	146	118	471.6	0.1	Clear	Weekend
+25-12-2023	R101	Central-Downtown	Bus	Morning Peak	236	219	479	1.1	Clear	Weekday
+25-12-2023	R102	Suburb Express	Metro	Off-Peak	50	40	159.7	0.4	Foggy	Weekday
+25-12-2023	R103	University Loop	Bus	Morning Peak	218	191	407.2	0.1	Clear	Weekday
+25-12-2023	R104	Airport Shuttle	Metro	Morning Peak	146	131	454.1	0.1	Foggy	Weekday
+25-12-2023	R105	Waterfront Line	Bus	Evening Peak	121	93	233.8	0.3	Cloudy	Weekday
+25-12-2023	R106	Night Owl	Metro	Evening Peak	239	228	651.2	1.6	Stormy	Weekday
+25-12-2023	R107	East-West Connector	Light Rail	Morning Peak	160	146	367.8	0.8	Clear	Weekday
+26-12-2023	R101	Central-Downtown	Metro	Evening Peak	163	139	482.8	2.1	Rainy	Weekday
+26-12-2023	R102	Suburb Express	Light Rail	Morning Peak	155	132	413.1	0.3	Clear	Weekday
+26-12-2023	R103	University Loop	Bus	Off-Peak	70	64	148.7	0.7	Clear	Weekday
+26-12-2023	R104	Airport Shuttle	Bus	Evening Peak	210	196	436.1	0.3	Clear	Weekday
+26-12-2023	R105	Waterfront Line	Metro	Evening Peak	187	162	575.9	2.6	Cloudy	Weekday
+26-12-2023	R106	Night Owl	Bus	Evening Peak	149	131	280.6	0.6	Clear	Weekday
+26-12-2023	R107	East-West Connector	Bus	Evening Peak	130	110	252.2	0.5	Clear	Weekday
+27-12-2023	R101	Central-Downtown	Bus	Morning Peak	163	135	347.4	0.3	Clear	Weekday
+27-12-2023	R102	Suburb Express	Bus	Evening Peak	120	103	245.3	0.1	Clear	Weekday
+27-12-2023	R103	University Loop	Bus	Evening Peak	119	101	222.9	0.3	Clear	Weekday
+27-12-2023	R104	Airport Shuttle	Light Rail	Morning Peak	114	94	289.8	0.1	Foggy	Weekday
+27-12-2023	R105	Waterfront Line	Bus	Morning Peak	142	113	278.7	1.1	Clear	Weekday
+27-12-2023	R106	Night Owl	Bus	Morning Peak	123	95	261.2	0.7	Rainy	Weekday
+27-12-2023	R107	East-West Connector	Bus	Morning Peak	141	120	298.4	0.3	Clear	Weekday
+28-12-2023	R101	Central-Downtown	Metro	Evening Peak	229	211	629.5	0.1	Clear	Weekday
+28-12-2023	R102	Suburb Express	Metro	Morning Peak	201	172	586.2	1	Rainy	Weekday
+28-12-2023	R103	University Loop	Light Rail	Morning Peak	113	87	255.4	1.1	Clear	Weekday
+28-12-2023	R104	Airport Shuttle	Bus	Evening Peak	140	129	297.7	0.7	Clear	Weekday
+28-12-2023	R105	Waterfront Line	Bus	Morning Peak	239	216	435.7	0	Clear	Weekday
+28-12-2023	R106	Night Owl	Light Rail	Morning Peak	142	121	344.8	0	Foggy	Weekday
+28-12-2023	R107	East-West Connector	Metro	Evening Peak	200	184	657.2	5.5	Rainy	Weekday
+29-12-2023	R101	Central-Downtown	Bus	Evening Peak	169	140	330.8	0.6	Clear	Weekday
+29-12-2023	R102	Suburb Express	Metro	Evening Peak	200	188	591.3	2.7	Rainy	Weekday
+29-12-2023	R103	University Loop	Bus	Evening Peak	197	179	383.8	1.1	Cloudy	Weekday
+29-12-2023	R104	Airport Shuttle	Light Rail	Morning Peak	101	73	267	0.2	Foggy	Weekday
+29-12-2023	R105	Waterfront Line	Light Rail	Morning Peak	158	136	423.3	0.7	Cloudy	Weekday
+29-12-2023	R106	Night Owl	Bus	Evening Peak	98	72	202.6	0.1	Clear	Weekday
+29-12-2023	R107	East-West Connector	Bus	Morning Peak	147	119	320.6	0.5	Clear	Weekday
+30-12-2023	R101	Central-Downtown	Metro	Evening	145	129	403	2.7	Rainy	Weekend
+30-12-2023	R102	Suburb Express	Metro	Midday	108	91	347.3	0.5	Stormy	Weekend
+30-12-2023	R103	University Loop	Bus	Midday	174	147	341.2	0.2	Clear	Weekend
+30-12-2023	R104	Airport Shuttle	Bus	Evening	185	173	385.5	0.9	Clear	Weekend
+30-12-2023	R105	Waterfront Line	Metro	Evening	150	124	432.4	0.5	Clear	Weekend
+30-12-2023	R106	Night Owl	Bus	Midday	224	200	480.5	0.6	Clear	Weekend
+30-12-2023	R107	East-West Connector	Metro	Evening	211	182	638.6	0.9	Stormy	Weekend
+31-12-2023	R101	Central-Downtown	Bus	Midday	144	129	262.8	0.3	Clear	Weekend
+31-12-2023	R102	Suburb Express	Bus	Evening	201	189	433.8	0.6	Cloudy	Weekend
+31-12-2023	R103	University Loop	Bus	Midday	65	49	125.3	2.7	Clear	Weekend
+31-12-2023	R104	Airport Shuttle	Bus	Evening	130	116	244.6	0.1	Clear	Weekend
+31-12-2023	R105	Waterfront Line	Bus	Evening	207	196	386.5	0	Clear	Weekend
+31-12-2023	R106	Night Owl	Metro	Evening	83	70	249.6	0.2	Clear	Weekend
+31-12-2023	R107	East-West Connector	Metro	Evening	203	188	561.3	0.7	Clear	Weekend
